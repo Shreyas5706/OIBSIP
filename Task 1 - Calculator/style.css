@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  transition: background 0.4s, color 0.4s;
+}
+
+/* Author section */
+.author-section {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4), 0 0 12px rgba(0,180,255,0.6);
+  background: rgba(255,255,255,0.05);
+}
+
+/* Tabs + Theme with slider */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.mode-tabs, .themes {
+  display: flex;
+  position: relative;
+}
+
+.mode-tabs button,
+.themes button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: 600;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.mode-tabs .slider,
+.themes .slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  border-radius: 2px;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+/* Calculator container */
+.calculator-container {
+  background: rgba(0,0,0,0.2);
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: background 0.4s;
+}
+
+#display {
+  width: 100%;
+  height: 60px;
+  text-align: right;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  transition: background 0.4s, color 0.4s;
+}
+
+/* Button grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+button.calc-btn {
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.2s, background 0.4s, color 0.4s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+button.calc-btn:hover {
+  transform: scale(1.05);
+}
+button.calc-btn:active {
+  transform: scale(0.95);
+}
+button.calc-btn.active {
+  outline: 2px solid yellow;
+  box-shadow: 0 0 8px yellow;
+}
+
+/* Themes */
+.theme-dark {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+.theme-dark .calculator-container { background: #1c1f26; }
+.theme-dark #display { background: #2a2f3b; color: #f1f1f1; }
+.theme-dark button.calc-btn { background: #2e3545; color: #f1f1f1; }
+
+.theme-light {
+  background: #f4f4f4;
+  color: #222;
+}
+.theme-light .calculator-container { background: #fff; }
+.theme-light #display { background: #eee; color: #222; }
+.theme-light button.calc-btn { background: #ddd; color: #222; }
+
+.theme-rose {
+  background: #ffe4ec;
+  color: #5a1a3c;
+}
+.theme-rose .calculator-container { background: #fff0f6; }
+.theme-rose #display { background: #ffd6e8; color: #5a1a3c; }
+.theme-rose button.calc-btn { background: #ff99c8; color: white; }
+
+.theme-ocean {
+  background: #001f3f;
+  color: #d0e6f5;
+}
+.theme-ocean .calculator-container { background: #003366; }
+.theme-ocean #display { background: #004080; color: #d0e6f5; }
+.theme-ocean button.calc-btn { background: #0074d9; color: white; }
+
+/* Responsive */
+@media (max-width: 500px) {
+  .calculator-container { max-width: 100%; }
+  button.calc-btn { padding: 14px; font-size: 1rem; }
+}
+.author .social-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.author .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white; /* fixed background */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.author .social-links a:hover {
+  transform: scale(1.1);
+}
+
+/* LinkedIn logo stays blue */
+.author .social-links a.linkedin svg {
+  fill: #0A66C2;
+}
+
+/* GitHub logo stays black */
+.author .social-links a.github svg {
+  fill: #000000;
+}
