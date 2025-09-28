@@ -18,7 +18,7 @@ This calculator performs the following basic arithmetic operations:
 
 **Internship:** OIBSIP
 
-**LinkedIn:** www.linkedin.com/inshreyas-solanki-1b6458285
+**LinkedIn:** www.linkedin.com/in/shreyas-solanki-1b6458285
  
 
 ***Features***
