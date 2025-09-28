@@ -1,36 +1,46 @@
+              OIBSIP Internship Task 1 - Calculator
 
-         OIBSIP Internship Task 1 - Calculator
 
 ***Project Overview***
-----------------------
-This folder contains the **Calculator Project** completed as part of the **OIBSIP Internship Task 1**.
+-----------------------
+This folder contains the **Modern Calculator App** completed as part of the **OIBSIP Internship Task 1**.
 
-This calculator performs the following basic arithmetic operations:
-
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
+The project is deployed and live at:  
+https://calculator--oibsip.vercel.app/
 
 ***Author Information***
 -------------------------
-**Name:** Shreyas Solanki  
+**Name:** Shreyas Solanki   
 
-**Internship:** OIBSIP
+**Internship:** OIBSIP  
 
-**LinkedIn:** www.linkedin.com/in/shreyas-solanki-1b6458285
- 
+**LinkedIn:** www.linkedin.com/in/shreyas-solanki-1b6458285 
+
+**GitHub:** https://github.com/Shreyas5706/OIBSIP
 
 ***Features***
---------------
-- User-friendly input and output
-- Error handling for division by zero
-- Clear result display
-.
+---------------
+- Responsive and modern UI with smooth transitions
+- Supports both Basic and Scientific calculation modes
+- Four selectable themes: Ocean, Dark, Light, Rose
+- Clean design with clear result display
+- Error handling for invalid input and division by zero
+- Accessible via any browser (desktop & mobile)
+- Direct links to author’s LinkedIn and GitHub profiles
+
+***How to Use***
+------------------
+1. Visit the calculator at https://calculator--oibsip.vercel.app/
+2. Select desired mode: Basic or Scientific.
+3. Choose a preferred theme.
+4. Input numbers and select arithmetic or scientific operations.
+5. View calculation results instantly.
 
 ***Notes***
-------------
-- Ensure all inputs are valid numbers.
-- Refresh or restart to perform a new calculation.
+-------------
+- All calculator logic is handled client-side.
+- Reload to reset or switch between features.
+- Source code available in this repository under /Task1.
 
-*Thank you for reviewing my Project!*
+*Thank you for checking out my Modern Calculator App!*
+-------------
