@@ -1,37 +1,56 @@
 # Ratan Tata Tribute Page
 
-A tribute webpage dedicated to **Ratan Tata**, showcasing his inspiring life, achievements, and enduring legacy as a visionary industrialist and philanthropist. This project is built using **HTML**, **CSS**, and **JavaScript**, focusing on responsive design, clean layout, and aesthetic visuals.
+A tribute webpage dedicated to **Ratan Tata**, celebrating his inspiring life, achievements, and enduring legacy as a visionary industrialist and philanthropist. This project was created as part of my **OIBSIP internship task** and is built using **HTML**, **CSS**, and **JavaScript**, with a focus on responsive design and modern aesthetics.
 
 ---
 
-
 ## About
 
-This webpage pays homage to **Ratan Tata**, highlighting key aspects of his life, his contributions to industry and society, and his legacy. The design is visually appealing, with a focus on readability, modern styling, and responsive layout for multiple devices.
+This webpage pays homage to **Ratan Tata**, highlighting key moments of his life, his contributions to industry and society, and his lasting influence. The design emphasizes clarity, accessibility, and a visually appealing layout suitable for all devices.
 
 ---
 
 ## Features
 
-- **Biography Section:** Overview of Ratan Tata's life and milestones.  
-- **Achievements:** Highlighting major achievements and awards.  
-- **Legacy Section:** Details about his philanthropic initiatives and enduring influence.  
-- **Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices.  
-- **Interactive Buttons:** Smooth navigation through external references and links.  
-- **Light & Dark Theme:** Easy switching between themes for better accessibility.  
+- **Biography Section:** Learn about Ratan Tata’s life and milestones.  
+- **Achievements:** Major awards and accomplishments highlighted.  
+- **Legacy Section:** Showcasing philanthropic initiatives and societal impact.  
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.  
+- **Interactive Buttons:** Navigate to external articles and references.  
+- **Light & Dark Theme:** Toggle between themes for better accessibility.  
+
+---
+
+## Live Demo
+
+Experience the live webpage here: [Ratan Tata Tribute Page](https://tributepage-liart.vercel.app/)
+
+---
+
+## Source Code
+
+Check out the source code on GitHub: [GitHub Repository](https://github.com/Shreyas5706/OIBSIP/tree/main/Task2)
 
 ---
 
 ## Technologies Used
 
-- **HTML5** – Structure of the webpage.  
-- **CSS3** – Styling, layout, and responsive design.  
-- **JavaScript** – Theme toggle and interactivity.  
+- **HTML5** – For the webpage structure.  
+- **CSS3** – For styling, layout, and responsive design.  
+- **JavaScript** – For interactivity and theme toggling.  
 
 ---
 
-## Installation
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Shreyas5706/OIBSIP/tree/main/Task2
+
+## Credits
+
+- Created as part of my **OIBSIP internship task**.  
+- Inspired by the life and achievements of **Ratan Tata**.  
+- Icons and images from [Font Awesome](https://fontawesome.com/) and free stock sources.  
+
+---
+
+## License
+
+This project is **open-source** and free to use for learning and personal projects.
