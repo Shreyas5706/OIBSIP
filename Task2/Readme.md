@@ -1,3 +1,7 @@
+              OIBSIP Internship Task 2 - Tribute page
+
+
+
 # Ratan Tata Tribute Page
 
 A tribute webpage dedicated to **Ratan Tata**, celebrating his inspiring life, achievements, and enduring legacy as a visionary industrialist and philanthropist. This project was created as part of my **OIBSIP internship task** and is built using **HTML**, **CSS**, and **JavaScript**, with a focus on responsive design and modern aesthetics.

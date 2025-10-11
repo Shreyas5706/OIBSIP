@@ -1,3 +1,7 @@
+              OIBSIP Internship Task 3 - To do Web app
+
+
+
 # 📝 To-Do Planner App
 
 ### 🌟 Project Overview
@@ -9,8 +13,8 @@ This project was created as part of my **OIBSIP internship tasks** and focuses o
 ---
 
 ### 🚀 Live Demo
-🔗 **Hosted Website:** [https://your-todo-app-link.vercel.app/](https://your-todo-app-link.vercel.app/)  
-💻 **GitHub Repository:** [https://github.com/Shreyas5706/OIBSIP/tree/main/TaskX-TodoApp](https://github.com/Shreyas5706/OIBSIP/tree/main/TaskX-TodoApp)
+🔗 **Hosted Website:** [https://todowebapp-lyart.vercel.app/](https://todowebapp-lyart.vercel.app/)  
+💻 **GitHub Repository:** [https://github.com/Shreyas5706/OIBSIP/tree/main/Task3](https://github.com/Shreyas5706/OIBSIP/tree/main/Task3)
 
 ---
 
@@ -47,8 +51,3 @@ This project was created as part of my **OIBSIP internship tasks** and focuses o
 | **Vercel** | Hosting (for live demo) |
 
 ---
-
-### 🖼️ Preview Screenshot
-> You can add a screenshot of your website using:
-```md
-![To-Do Planner Preview](./assets/todo-preview.png)
