@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>✨ My To-Do Planner</h1>
+      <button id="themeToggle" title="Toggle Theme">🌙</button>
+    </header>
+
+    <main class="container">
+      <!-- Add Task Section -->
+      <section class="add-section">
+        <h2>Add a Task</h2>
+        <div class="input-area">
+          <input type="text" id="todoInput" placeholder="Enter a new task..." />
+          <button id="addBtn">Add</button>
+        </div>
+      </section>
+
+      <!-- View Tasks Section -->
+      <section class="view-section">
+        <h2>Your Tasks</h2>
+        <ul id="todoList"></ul>
+        <div class="actions">
+          <p><span id="todoCount">0</span> tasks total</p>
+          <button id="clearAll">Clear All</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made with ❤️ by <strong>Shreyas Solanki </strong></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/shreyas-solanki-1b6458285" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/Shreyas5706" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

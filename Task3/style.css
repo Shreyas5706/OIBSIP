@@ -1,0 +1,198 @@
+:root {
+  --dark-bg: linear-gradient(135deg, #001f3f, #0077b6);
+  --dark-box: #013a63;
+  --dark-text: #caf0f8;
+  --dark-accent: #00b4d8;
+
+  --light-bg: linear-gradient(135deg, #dff6ff, #fefefe);
+  --light-box: #ffffff;
+  --light-text: #023e8a;
+  --light-accent: #0077b6;
+
+  --transition: all 0.3s ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background: var(--dark-bg);
+  color: var(--dark-text);
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+#themeToggle {
+  background: none;
+  border: 2px solid var(--dark-accent);
+  color: var(--dark-accent);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: var(--transition);
+}
+#themeToggle:hover {
+  transform: rotate(20deg) scale(1.1);
+}
+
+/* Container Layout */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Sections */
+.add-section,
+.view-section {
+  flex: 1;
+  max-width: 400px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: var(--dark-box);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: var(--transition);
+}
+
+.add-section h2,
+.view-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Input Area */
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+}
+#todoInput {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+}
+#addBtn {
+  background-color: var(--dark-accent);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+#addBtn:hover {
+  transform: scale(1.05);
+  background-color: #48cae4;
+}
+
+/* Task List */
+#todoList {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  animation: fadeInUp 0.4s ease;
+}
+
+.todo-item.completed p {
+  text-decoration: line-through;
+  color: #adb5bd;
+}
+
+/* Icons */
+.actions button,
+.todo-actions button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--dark-accent);
+  transition: var(--transition);
+}
+.todo-actions button:hover {
+  transform: scale(1.2);
+  color: #48cae4;
+}
+
+/* Action bar */
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: #bde0fe;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+.social-links img {
+  width: 28px;
+  height: 28px;
+  margin: 0 0.4rem;
+  transition: var(--transition);
+}
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Light Theme */
+.light-theme {
+  background: var(--light-bg);
+  color: var(--light-text);
+}
+.light-theme #themeToggle {
+  border-color: var(--light-accent);
+  color: var(--light-accent);
+}
+.light-theme .add-section,
+.light-theme .view-section {
+  background: var(--light-box);
+  color: var(--light-text);
+}
+.light-theme #addBtn {
+  background-color: var(--light-accent);
+}
+.light-theme .todo-item {
+  background: rgba(0, 0, 0, 0.05);
+}
