@@ -13,8 +13,9 @@ This project was created as part of my **OIBSIP internship tasks** and focuses o
 ---
 
 ### 🚀 Live Demo
-🔗 **Hosted Website:** [Add Vercel Link Here]  
-💻 **GitHub Repository:** [https://github.com/Shreyas5706/OIBSIP](https://github.com/Shreyas5706/OIBSIP)
+🔗 **Hosted Website:** [Auth Provider](https://authprovider.vercel.app/)
+
+💻 **GitHub Repository:** [View Source code](https://github.com/Shreyas5706/OIBSIP)
 
 ---
 ---
@@ -22,7 +23,7 @@ This project was created as part of my **OIBSIP internship tasks** and focuses o
 **Name:** Shreyas Solanki  
 **Internship:** OIBSIP  
 **LinkedIn:** [www.linkedin.com/in/shreyas-solanki-1b6458285](https://www.linkedin.com/in/shreyas-solanki-1b6458285)  
-**GitHub:** [https://github.com/Shreyas5706/OIBSIP](https://github.com/Shreyas5706/OIBSIP)
+**GitHub:** [https://github.com/Shreyas5706](https://github.com/Shreyas5706/)
 ---
 
 ### ✨ Features
