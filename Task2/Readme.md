@@ -1,60 +1,63 @@
-              OIBSIP Internship Task 2 - Tribute page
+                OIBSIP Internship Task 2 - Tribute Page
 
+# 🏅 Ratan Tata Tribute Webpage
 
+This repository contains the Tribute Page dedicated to Ratan Tata, completed as part of the OIBSIP Internship. The project focuses on celebrating his legacy, achievements, and lasting impact through a modern, responsive web experience.
 
-# Ratan Tata Tribute Page
+## 🚀 Live Demo
+- [Tribute Page](https://tributepage-liart.vercel.app/)
 
-A tribute webpage dedicated to **Ratan Tata**, celebrating his inspiring life, achievements, and enduring legacy as a visionary industrialist and philanthropist. This project was created as part of my **OIBSIP internship task** and is built using **HTML**, **CSS**, and **JavaScript**, with a focus on responsive design and modern aesthetics.
+## 👤 Author Information
+**Name:** Shreyas Solanki  
+**Internship:** OIBSIP  
+**LinkedIn:** [www.linkedin.com/in/shreyas-solanki-1b6458285](https://www.linkedin.com/in/shreyas-solanki-1b6458285)  
+**GitHub:** [https://github.com/Shreyas5706/OIBSIP](https://github.com/Shreyas5706/OIBSIP)
 
----
+## 📝 About
+A tribute webpage honoring Ratan Tata, highlighting his inspiring life, major milestones, philanthropic achievements, and enduring influence. Built for the OIBSIP internship to showcase responsive design, visual clarity, and storytelling.
 
-## About
+## ⚡ Features
+- Biography, awards, and legacy sections
+- Modern, responsive layout
+- Interactive UI elements
+- Accessibility on desktop and mobile devices
 
-This webpage pays homage to **Ratan Tata**, highlighting key moments of his life, his contributions to industry and society, and his lasting influence. The design emphasizes clarity, accessibility, and a visually appealing layout suitable for all devices.
+## 🎨 UI & Experience
+- Light/Dark theme toggle for comfort
+- Visually engaging interface with icons and imagery
+- Designed for readability and clarity across devices
 
----
+## ⚙️ Technologies Used
+| Technology      | Purpose                                      |
+|-----------------|----------------------------------------------|
+| HTML5           | Structure and layout                         |
+| CSS3            | Styling, transitions, theming                |
+| JavaScript ES6  | Page interactions and dynamic content        |
+| Vercel          | Hosting for live demo                        |
 
-## Features
+## 📑 How to Use
+1. Visit the tribute page link.
+2. Explore Ratan Tata's biography, achievements, and legacy.
+3. Toggle themes for optimal viewing.
+4. Navigate to related articles and external resources.
 
-- **Biography Section:** Learn about Ratan Tata’s life and milestones.  
-- **Achievements:** Major awards and accomplishments highlighted.  
-- **Legacy Section:** Showcasing philanthropic initiatives and societal impact.  
-- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.  
-- **Interactive Buttons:** Navigate to external articles and references.  
-- **Light & Dark Theme:** Toggle between themes for better accessibility.  
+## 📌 Notes
+- Project is fully client-side.
+- Reload page to reset UI or switch features.
+- Source code available under Task2 directory.
 
----
+## 🏆 Credits
+- Developed by Shreyas Solanki for OIBSIP Internship.
+- Design and icons from open-source libraries.
 
-## Live Demo
+## 📄 License
+Released under the MIT License, free for educational and personal use.
 
-Experience the live webpage here: [Ratan Tata Tribute Page](https://tributepage-liart.vercel.app/)
+## ✅ To-Do
+- [ ] Add interactive timeline
+- [ ] Incorporate media gallery
+- [ ] Extend legacy section
 
----
-
-## Source Code
-
-Check out the source code on GitHub: [GitHub Repository](https://github.com/Shreyas5706/OIBSIP/tree/main/Task2)
-
----
-
-## Technologies Used
-
-- **HTML5** – For the webpage structure.  
-- **CSS3** – For styling, layout, and responsive design.  
-- **JavaScript** – For interactivity and theme toggling.  
-
----
-
-
-
-## Credits
-
-- Created as part of my **OIBSIP internship task**.  
-- Inspired by the life and achievements of **Ratan Tata**.  
-- Icons and images from [Font Awesome](https://fontawesome.com/) and free stock sources.  
-
----
-
-## License
-
-This project is **open-source** and free to use for learning and personal projects.
+-------------
+*Thank you for visiting the Ratan Tata Tribute Page!*
+-------------

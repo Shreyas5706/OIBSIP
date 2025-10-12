@@ -17,6 +17,13 @@ This project was created as part of my **OIBSIP internship tasks** and focuses o
 💻 **GitHub Repository:** [https://github.com/Shreyas5706/OIBSIP/tree/main/Task3](https://github.com/Shreyas5706/OIBSIP/tree/main/Task3)
 
 ---
+---
+## 👤 Author Information
+**Name:** Shreyas Solanki  
+**Internship:** OIBSIP  
+**LinkedIn:** [www.linkedin.com/in/shreyas-solanki-1b6458285](https://www.linkedin.com/in/shreyas-solanki-1b6458285)  
+**GitHub:** [https://github.com/Shreyas5706/OIBSIP](https://github.com/Shreyas5706/OIBSIP)
+---
 
 ### ✨ Features
 
@@ -51,3 +58,30 @@ This project was created as part of my **OIBSIP internship tasks** and focuses o
 | **Vercel** | Hosting (for live demo) |
 
 ---
+## 📑 How to Use
+1. Visit the To-Do Planner app link.
+2. Add tasks using the input panel.
+3. Click tasks to mark as completed.
+4. Edit or delete tasks using provided controls.
+5. Switch between Ocean Dark and Light themes for comfort.
+
+## 📌 Notes
+- Tasks are saved locally to persist across sessions.
+- Reload page to reset or clear tasks.
+- Source code is organized under Task3 directory.
+
+## 🏆 Credits
+- Developed by Shreyas Solanki for OIBSIP Internship.
+- Utilizes open-source icons and libraries for UI.
+
+## 📄 License
+Released under the MIT License, free for personal and educational use.
+
+## ✅ To-Do
+- [ ] Add priority tagging
+- [ ] Implement collaborative task lists
+- [ ] Add notification/reminders
+
+-------------
+*Thank you for using the To-Do Planner App!*
+-------------
