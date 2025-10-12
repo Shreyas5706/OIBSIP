@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 217 91% 60%;
+    --radius: 0.75rem;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(217, 91%, 60%), hsl(224, 76%, 48%));
+    --gradient-background: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(210, 40%, 98%));
+    --shadow-elegant: 0 10px 40px -10px hsl(217 91% 60% / 0.3);
+  }
+
+  .dark {
+    --background: 222.2 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 217.2 32.6% 17.5%;
+    --card-foreground: 210 40% 98%;
+    --popover: 217.2 32.6% 17.5%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217.2 32.6% 22%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 22%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 217.2 32.6% 25%;
+    --input: 217.2 32.6% 25%;
+    --ring: 217 91% 60%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(217, 91%, 60%), hsl(224, 76%, 48%));
+    --gradient-background: linear-gradient(180deg, hsl(222.2, 47%, 11%), hsl(217.2, 32.6%, 17.5%));
+    --shadow-elegant: 0 10px 40px -10px hsl(217 91% 60% / 0.4);
+  }
+
+  .midnight {
+    --background: 220 50% 8%;
+    --foreground: 210 40% 98%;
+    --card: 220 45% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 45% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 200 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 45% 18%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 45% 18%;
+    --muted-foreground: 215 20.2% 70%;
+    --accent: 200 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 45% 20%;
+    --input: 220 45% 20%;
+    --ring: 200 100% 50%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(200, 100%, 50%), hsl(240, 100%, 60%));
+    --gradient-background: linear-gradient(180deg, hsl(220, 50%, 8%), hsl(220, 45%, 12%));
+    --shadow-elegant: 0 10px 40px -10px hsl(200 100% 50% / 0.5);
+  }
+
+  .sunset {
+    --background: 30 40% 96%;
+    --foreground: 15 40% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 15 40% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 15 40% 12%;
+    --primary: 340 82% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 100% 96%;
+    --secondary-foreground: 15 40% 12%;
+    --muted: 30 100% 96%;
+    --muted-foreground: 15 20% 50%;
+    --accent: 340 82% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 30 40% 88%;
+    --input: 30 40% 88%;
+    --ring: 340 82% 52%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(340, 82%, 52%), hsl(30, 100%, 60%));
+    --gradient-background: linear-gradient(180deg, hsl(30, 100%, 98%), hsl(30, 40%, 96%));
+    --shadow-elegant: 0 10px 40px -10px hsl(340 82% 52% / 0.3);
+  }
+
+  .ocean {
+    --background: 200 50% 96%;
+    --foreground: 200 40% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 40% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 40% 12%;
+    --primary: 180 90% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 200 50% 94%;
+    --secondary-foreground: 200 40% 12%;
+    --muted: 200 50% 94%;
+    --muted-foreground: 200 20% 50%;
+    --accent: 180 90% 40%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 200 40% 88%;
+    --input: 200 40% 88%;
+    --ring: 180 90% 40%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(180, 90%, 40%), hsl(200, 80%, 50%));
+    --gradient-background: linear-gradient(180deg, hsl(200, 50%, 98%), hsl(200, 50%, 96%));
+    --shadow-elegant: 0 10px 40px -10px hsl(180 90% 40% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    background: var(--gradient-background);
+  }
+}
+
+@layer utilities {
+  .auth-card {
+    @apply bg-card/80 backdrop-blur-sm border-border shadow-lg;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+  
+  .btn-gradient {
+    background: var(--gradient-primary);
+    @apply shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105;
+  }
+}
